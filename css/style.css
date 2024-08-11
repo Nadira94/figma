@@ -1,0 +1,244 @@
+/* COMMON CSS START */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+body{
+    font-family: "Epilogue", sans-serif;
+}
+.container{
+    width: 1180px;
+    margin: auto; 
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.align-center{
+    align-items: center;
+} 
+.space-between{
+    justify-content: space-between;
+}
+/* COMMON CSS END*/
+
+/*  *NAVBAR STARTS */
+nav{
+    padding: 25px;
+}
+nav .logo,
+nav .menu{
+    width: 50% ;
+
+}
+nav .menu{
+    text-align: right;
+}
+nav .menu ul li{
+    display: inline-block ;
+}
+nav .menu ul li a{
+    color: #2D2D2D ;
+    line-height: 28px;
+    font-size: 17px;
+    margin: 0 25px;
+}
+/*  *NAVBAR ENDS */
+
+/*  *BANNER STARTS */
+    #banner{
+        padding: 100px;
+
+    }
+    .bannerCnt{
+        color: #2D2D2D;
+    }
+    .bannerCnt,
+    .bannerImg{
+        width:50% ;
+    }
+    .bannerImg{
+        text-align: center;
+    }
+    .bannerCnt h4{
+        font-weight: 500;
+        font-size: 20px;
+      
+    }
+    .bannerCnt h1{
+        font-weight: 500;
+        font-size: 80px;
+        margin: 40px 0;
+       
+    }
+    .bannerCnt p{
+        font-size: 17px;
+    }
+/*  * BANNER ENDS */ 
+
+/*  * CLIENTS WORK */  
+#clients .container{
+    border-top: 2px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    padding: 66.41px 0;
+}
+   .clientImg{
+    width: 20%;
+   }
+
+/*  * CLIENTS WORK END */  
+
+/*  * SERVICE STARTS */ 
+#service .container{
+    padding: 140px;
+    
+
+}
+.serviceImage{
+    width: 33.333%;
+    text-align: center;
+   padding: 20px;
+}
+.serviceImage h4{
+    margin: 20px;
+
+}
+.serviceImage p{
+  font-size: 17px;
+  padding: 0 50px;
+
+}
+
+
+
+/*  * SERVICE ENDS */
+
+/*  WORK START*/
+.work_card{
+    width: 33.33%;
+    margin-bottom: 60px;
+    color: #2D2D2D;
+}
+.work_card h5{
+    font-size: 20px;
+    font-weight: 500px;
+    margin: 25px 0 10px;
+}
+.work_card p{
+    font-size: 17px;
+}
+
+/*  WORK END*/
+
+/*  *REVIEW */
+#review h3{
+    text-align: center;
+    margin-bottom: 40px;
+  
+}
+
+#review{
+    padding: 100px 0 150px;
+}
+
+.reviewCard{
+width: calc(33.33% - 60px);
+border: 1.5px solid #FFD285;
+padding: 30px;
+background-color: #FFFCF5;
+color: #2D2D2D;
+}
+.reviewCard.middle{
+    margin: 0 68px;
+}
+.reviewCard p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 80px;
+}
+.reviewCard .avatar{
+    width: 30%;
+}
+.reviewCard .author{
+    width: 70%;
+}
+.reviewCard .author p{
+    font-style: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-top: 10px;
+}
+
+/*  *REVIEW END */
+
+/* *FOOTER */
+
+footer .container{
+    padding: 70px 0;
+    border-top:2px solid rgba(0, 0, 0, 0.2) ;
+}
+footer .footerContent{
+    width: 30%;
+}
+footer .footerContent h2{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    margin-bottom: 40px;
+}
+footer .footerContent p{
+    font-size: 17px;
+    line-height: 27px;
+    margin-bottom: 60px;
+}
+footer .footerContent .socialLinks{
+    display: flex;
+    align-items: center;
+    
+}
+footer .footerContent .socialLinks a{
+    margin-right: 20px;
+
+}
+footer .contactForm{
+    width: 40%;
+}
+footer .contactForm input,
+footer .contactForm textarea{
+    width: 100%;
+    height: 69px;
+    padding-left: 30px;
+    display: block;
+    border: none;
+    background: #F3F3F3;
+    font-size: 17px;
+    color: #2D2D2D;
+    margin-bottom: 20px;
+    outline: none;
+}
+footer .contactForm textarea{
+    padding: 21px 30px;
+    height: 189px;
+    resize: none;
+}
+footer .contactForm button{
+    background: #2D2D2D;
+    font-size: 20px;
+    line-height: 30px;
+    color: white ;
+    padding: 25px 82px;
+    border: none;
+}
+
+/* *FOOTER END*/
+ 
+
+ 
